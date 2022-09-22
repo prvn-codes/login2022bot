@@ -1,0 +1,13 @@
+[2022-09-23 00:01:03.285897] Bot logged in
+[2022-09-23 00:01:03.581410] : Message Deleted 'jhgf' from get-role[2022-09-23 00:02:21.518997] Bot logged in
+[2022-09-23 00:02:21.987686] : Message Deleted '1' from get-role
+[2022-09-23 00:02:36.127840] : Message Deleted ';' from get-role
+[2022-09-23 00:02:39.354107] : Message Deleted ';' from get-role
+[2022-09-23 00:03:06.268145] : Message Deleted 't@t.com' from get-role
+[2022-09-23 00:03:06.268145] : t@t.com is a Registered Participant
+[2022-09-23 00:03:06.268145] : t@t.com is a Not a Registered Participant
+[2022-09-23 00:03:41.638506] Bot logged in
+[2022-09-23 00:03:43.401017] : Message Deleted 'kjhgfj' from get-role
+[2022-09-23 00:04:08.209026] : Message Deleted 'l' from get-role
+[2022-09-23 00:05:12.706624] Bot logged in
+[2022-09-23 00:05:58.676099] : Message Deleted 'log test' from get-role
