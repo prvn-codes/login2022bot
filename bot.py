@@ -57,11 +57,19 @@ async def add_role_participant(message: discord.message.Message, log):
     events = db.get_user_events(message.content, conn)
     guild =  bot.get_guild(message.guild.id)
     user =  guild.get_member(message.author.id)
+    
     if events:
+        
         log.write(f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Registered Participant\n")
+        
         roles = [discord.utils.get(guild.roles, id=eventRoleMapping["participant"])]
         for event in events:
             roles.append(discord.utils.get(guild.roles, id=eventRoleMapping[event])) 
+        
+        nickname = db.get_user_name(message.content, conn).title()
+        await user.edit(nick=nickname)
+        log.write(f"[{datetime.now()}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n")
+
         await user.add_roles(*roles, reason=f"Role [{roles}] assigned upon on request")
         log.write(f"[{datetime.now()}] : [{user.name}] \t{message.content} added roles {roles}\n" )
     else:
