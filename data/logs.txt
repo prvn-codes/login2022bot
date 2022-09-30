@@ -74,3 +74,5 @@
 [2022-09-30 00:19:55.376197] : [Sooyasha] 	`revanthlp3@gmail.com` is a Registered Participant
 [2022-09-30 00:19:56.006256] : [Sooyasha] 	 User Nickname changed from 'Revanth S A' to Revanth S A
 [2022-09-30 00:19:56.746791] : [Sooyasha] 	revanthlp3@gmail.com added roles [<Role id=1020316108714160139 name='Participants'>, <Role id=1020315223858618369 name='Nethunt'>]
+[2022-09-30 03:44:48.814827] : Bot logged in
+[2022-09-30 05:08:03.417342] : Bot logged in
