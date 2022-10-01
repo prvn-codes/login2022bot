@@ -1,14 +1,16 @@
-from threading import Thread
 import discord
 # from dotenv import load_dotenv, find_dotenv
 import os
 import json
 from datetime import datetime
 import re
-import server
 import database as db
+from flask import Flask, render_template
+
 
 # load_dotenv(find_dotenv())
+
+
 
 intents = discord.Intents.all()
 bot = discord.Client(intents=intents)
@@ -130,16 +132,15 @@ async def on_message(message: discord.message.Message):
       pass
   log.close()
 
-def keep_alive_bot():
-  print("keep_alive_bot")
-  bot.run(os.environ["BOT_TOKEN"])
+app = Flask(__name__, template_folder="./template")
 
-def start_bot():
-  print("start_bot")
-  t1 = Thread(target=keep_alive_bot)
-  t1.start()
-
+@app.route("/")
+def home():
+    log_file = open("./data/logs.txt")
+    logs = [log for log in log_file]
+    logs = logs[::-1]
+    return render_template("log.html", logs= logs)
 
 if __name__ == "__main__":
-  #server.keep_alive()
   bot.run(os.environ["BOT_TOKEN"])
+  app.run(host="0.0.0.0", port=8080, debug=True)
