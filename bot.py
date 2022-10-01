@@ -27,7 +27,7 @@ async def on_ready():
   log = open("./data/logs.txt", "a")
   log.write(f"--- [{datetime.now(pytz.timezone('Asia/Calcutta'))}]: [bot] Bot logged in\n")
   log.close()
-  bot.activity._details = "Coded by"
+  discord.Activity.name = "HI"
 
 
 async def add_role_member(message: discord.message.Message, log):
