@@ -1,22 +1,16 @@
 import discord
-# from dotenv import load_dotenv, find_dotenv
 import os
 import json
 from datetime import datetime
 import re
-# import server
 import database as db
 
-# load_dotenv(find_dotenv())
 
 intents = discord.Intents.all()
 bot = discord.Client(intents=intents)
 
 fp = open("./data/userrolemapping.json", "r")
 userRoleMapping = json.load(fp=fp)
-
-fp = open("./data/eventRoleMapping.json", "r")
-eventRoleMapping = json.load(fp=fp)
 
 conn = db.get_connection()
 
@@ -81,11 +75,7 @@ async def add_role_participant(message: discord.message.Message, log):
       f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
     )
 
-    roles = [
-      discord.utils.get(guild.roles, id=eventRoleMapping["participant"])
-    ]
-    for event in events:
-      roles.append(discord.utils.get(guild.roles, id=eventRoleMapping[event]))
+    roles = []
 
     nickname = db.get_user_name(message.content, conn).title()
     await user.edit(nick=nickname)
@@ -122,6 +112,13 @@ async def on_message(message: discord.message.Message):
     log.write(
       f"[{datetime.now()}] : [{ message.author.name}] requested log file.\n"
     )
+
+  if message.content.startswith("dumpautologs -t"):
+    count = int(message.content.split(" ")[2])
+    log_file = open("./data/logs.txt")
+    logs = [log for log in log_file]
+    send_logs = "```\n" + "\n".join(logs[:-count]) + "\n```"
+    message.channel.send(send_logs)
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
     await message.delete()
