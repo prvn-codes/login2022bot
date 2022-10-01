@@ -129,7 +129,10 @@ async def on_message(message: discord.message.Message):
       pass
   log.close()
 
+def start_bot():
+  bot.run(os.environ["BOT_TOKEN"])
+
 
 if __name__ == "__main__":
-  server.start()
+  server.keep_alive()
   bot.run(os.environ["BOT_TOKEN"])
