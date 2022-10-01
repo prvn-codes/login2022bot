@@ -34,7 +34,7 @@ async def add_role_member(message: discord.message.Message, log):
   user = guild.get_member(message.author.id)
 
   log.write(
-    f"--- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} is a PSG Student\n"
+    f"--- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} is a PSG Student\n"
   )
 
   if message.content.upper() in userRoleMapping.keys():
@@ -45,11 +45,11 @@ async def add_role_member(message: discord.message.Message, log):
 
     await user.edit(nick=nickname)
     log.write(
-      f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+      f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
     )
 
     await user.edit(roles=[])
-    if message.guild.id == os.environ["LAST_STAND_GUILD"]:
+    if message.guild.id == int(os.environ["LAST_STAND_GUILD"]):
       roles = [
         discord.utils.get(guild.roles, id=role_id)
         for role_id in lsuserrolemapping[message.content.upper()]["roles"]
@@ -63,7 +63,7 @@ async def add_role_member(message: discord.message.Message, log):
                          reason=f"Role [{roles}] assigned upon on request")
 
     log.write(
-      f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
+      f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n"
     )
 
   else:
@@ -72,7 +72,7 @@ async def add_role_member(message: discord.message.Message, log):
       "Your request cannot be processed. Please contact your Event Coordinator or Admin to gain access"
     )
     log.write(
-      f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} Not available in database\n"
+      f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} Not available in database\n"
     )
 
 
@@ -89,7 +89,7 @@ async def add_role_participant(message: discord.message.Message, log):
         roles = [discord.utils.get(guild.roles, id=eventRoleMapping["ls-participant"])]
         if ("laststand-valorant" in events) or "laststand-nfs" in events:
           log.write(
-            f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
+            f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t`{message.content}` is a Registered Participant\n"
           )
 
           if "laststand-valorant" in events:
@@ -103,17 +103,17 @@ async def add_role_participant(message: discord.message.Message, log):
         nickname = db.get_user_name(message.content, conn).title()
         await user.edit(nick=nickname)
         log.write(
-          f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+          f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
         )
 
         await user.add_roles(*roles,
                             reason=f"Role [{roles}] assigned upon on request")
         log.write(
-          f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
+          f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n"
         )
       else :
         log.write(
-        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
+        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t`{message.content}` is a Registered Participant\n"
         )
 
         roles = [
@@ -125,24 +125,24 @@ async def add_role_participant(message: discord.message.Message, log):
       nickname = db.get_user_name(message.content, conn).title()
       await user.edit(nick=nickname)
       log.write(
-        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
       )
 
       await user.add_roles(*roles,
                           reason=f"Role [{roles}] assigned upon on request")
       log.write(
-        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
+        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n"
       )
     else:
       log.write(
-        f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` has not registered any events\n"
+        f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t`{message.content}` has not registered any events\n"
       )
       await user.send(
         "Oh oohh!, it seems like you haven't registered any events from Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://www.psglogin.in"
       )
   else:
     log.write(
-        f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` is Not A Registered Participant\n"
+        f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t`{message.content}` is Not A Registered Participant\n"
       )
     await user.send(
         "Oh oohh!, it seems like you haven't registered any events from Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://www.psglogin.in"
