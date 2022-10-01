@@ -24,7 +24,7 @@ conn = db.get_connection()
 @bot.event
 async def on_ready():
   log = open("./data/logs.txt", "a")
-  log.write(f"[{datetime.now()}] : Bot logged in\n")
+  log.write(f"[{datetime.now()}] [bot] : Bot logged in\n")
   log.close()
 
 
