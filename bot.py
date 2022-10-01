@@ -4,7 +4,7 @@ import os
 import json
 from datetime import datetime
 import re
-import server
+# import server
 import database as db
 
 # load_dotenv(find_dotenv())
@@ -109,12 +109,16 @@ async def add_role_participant(message: discord.message.Message, log):
 
 @bot.event
 async def on_message(message: discord.message.Message):
+
   log = open("./data/logs.txt", "a")
   if message.author == bot.user:
     return
 
   if message.content == "pinglogin":
     await message.channel.send("ping success!")
+
+  if message.content == "dumpautologs":
+    await message.channel.send(discord.Attachment("./data/logs.txt"))
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
     await message.delete()
@@ -131,5 +135,5 @@ async def on_message(message: discord.message.Message):
 
 
 if __name__ == "__main__":
-  server.start()
+  # server.start()
   bot.run(os.environ["BOT_TOKEN"])
