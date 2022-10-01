@@ -118,7 +118,7 @@ async def on_message(message: discord.message.Message):
     await message.channel.send("ping success!")
 
   if message.content == "dumpautologs":
-    await message.channel.send(file="./data/logs.txt")
+    await message.channel.send(file=discord.File("./data/logs.txt"))
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
     await message.delete()
