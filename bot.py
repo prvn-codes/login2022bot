@@ -16,7 +16,7 @@ userRoleMapping = json.load(fp=fp)
 fp = open("./data/eventRoleMapping.json", "r")
 eventRoleMapping = json.load(fp=fp)
 
-fp = open("./data/lseventRoleMapping.json", "r")
+fp = open("./data/lsuserrolemapping.json", "r")
 lseventRoleMapping = json.load(fp=fp)
 
 eventRoleMapping = {
