@@ -12,6 +12,12 @@ bot = discord.Client(intents=intents)
 fp = open("./data/userrolemapping.json", "r")
 userRoleMapping = json.load(fp=fp)
 
+eventRoleMapping = {
+  "Valorant" : 1018184079092482142,
+  "NFS" : 1018184145777741847,
+  "PARTICIPANT" : 1018184021873803264
+}
+
 conn = db.get_connection()
 
 
@@ -70,24 +76,45 @@ async def add_role_participant(message: discord.message.Message, log):
   user = guild.get_member(message.author.id)
 
   if events:
+    roles = [discord.utils.get(guild.roles, id=eventRoleMapping["PARTICIPANT"])]
+    if ("laststand-valorant" in events) or "laststand-nfs" in events:
+      log.write(
+        f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
+      )
 
-    log.write(
-      f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
-    )
+      if "laststand-valorant" in events:
+        roles.append(discord.utils.get(guild.roles, id=eventRoleMapping["VALORANT"]))
+      if "laststand-nfs" in events:
+        roles.append(discord.utils.get(guild.roles, id=eventRoleMapping["NFS"]))
 
-    roles = []
+      nickname = db.get_user_name(message.content, conn).title()
+      await user.edit(nick=nickname)
+      log.write(
+        f"[{datetime.now()}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+      )
 
-    nickname = db.get_user_name(message.content, conn).title()
-    await user.edit(nick=nickname)
-    log.write(
-      f"[{datetime.now()}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
-    )
-
-    await user.add_roles(*roles,
-                         reason=f"Role [{roles}] assigned upon on request")
-    log.write(
-      f"[{datetime.now()}] : [{user.name}] \t{message.content} added roles {roles}\n"
-    )
+      await user.add_roles(*roles,
+                          reason=f"Role [{roles}] assigned upon on request")
+      log.write(
+        f"[{datetime.now()}] : [{user.name}] \t{message.content} added roles {roles}\n"
+      )
+    else:
+      nickname = db.get_user_name(message.content, conn).title()
+      await user.edit(nick=nickname)
+      log.write(
+        f"[{datetime.now()}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+      )
+      await user.add_roles(*roles,
+                          reason=f"Role [{roles}] assigned upon on request")
+      log.write(
+        f"[{datetime.now()}] : [{user.name}] \t{message.content} added roles {roles}\n"
+      )
+      log.write(
+      f"[{datetime.now()}] : [{user.name}] \t`{message.content}` has Not a Registered for LastStand\n"
+      )
+      await user.send(
+        "Oh oohh!, it seems like you haven't registered for the event Last Stand, Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://psglogin.in\n\nIf you have registered for other events from Login 2022 please join our **Login 2022 Discord Server** at https://discord.com/invite/RTrVjqMYF8"
+      )
   else:
     log.write(
       f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Not a Registered Participant\n"
