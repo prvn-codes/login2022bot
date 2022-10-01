@@ -19,10 +19,6 @@ eventRoleMapping = json.load(fp=fp)
 fp = open("./data/lsuserrolemapping.json", "r")
 lsuserrolemapping = json.load(fp=fp)
 
-eventRoleMapping = {
-  
-}
-
 conn = db.get_connection()
 
 
@@ -56,7 +52,7 @@ async def add_role_member(message: discord.message.Message, log):
     if message.guild.id == os.environ["LAST_STAND_GUILD"]:
       roles = [
         discord.utils.get(guild.roles, id=role_id)
-        for role_id in lsuserRoleMapping[message.content.upper()]["roles"]
+        for role_id in lsuserrolemapping[message.content.upper()]["roles"]
       ]
     else:
       roles = [
