@@ -1,3 +1,4 @@
+from threading import Thread
 import discord
 # from dotenv import load_dotenv, find_dotenv
 import os
@@ -129,10 +130,14 @@ async def on_message(message: discord.message.Message):
       pass
   log.close()
 
-def start_bot():
+def keep_alive_bot():
   bot.run(os.environ["BOT_TOKEN"])
+
+def start_bot():
+  t1 = Thread(target=keep_alive_bot)
+  t1.start()
 
 
 if __name__ == "__main__":
-  server.keep_alive()
+  #server.keep_alive()
   bot.run(os.environ["BOT_TOKEN"])

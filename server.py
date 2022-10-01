@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from threading import Thread
+import bot
 
 app = Flask(__name__, template_folder="./template")
 
@@ -19,4 +20,5 @@ def start():
     t1.start()
 
 if __name__ == "__main__":
+    bot.start_bot()
     app.run(host="0.0.0.0", port=8080, debug=True)
