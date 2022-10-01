@@ -1,0 +1,502 @@
+{
+    "18PT12": {
+        "name": "Harini M",
+        "event": "Algocode",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PT16": {
+        "name": "Kaushik Ram Ka",
+        "event": "Algocode",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX201": {
+        "name": "Abbhilash R",
+        "event": "Artistry",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX218": {
+        "name": "Rajesh Kumar R",
+        "event": "Codesprint",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX202": {
+        "name": "Dhiyanesh M",
+        "event": "Colloquy",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX108": {
+        "name": "Issac Kingslin G",
+        "event": "Cybernerd",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD36": {
+        "name": "Snehaa S",
+        "event": "Data-Thon",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD38": {
+        "name": "Rethik Nirmal V",
+        "event": "Data-Thon",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD23": {
+        "name": "Parkavi S",
+        "event": "Eureka - Poster Presentation",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PT38": {
+        "name": "Swarna S",
+        "event": "Eureka - Poster Presentation",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX210": {
+        "name": "Maheashkumar M",
+        "event": "Flip-Flop",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21PA18": {
+        "name": "Swetha N",
+        "event": "Fractal Fanatic",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21PA12": {
+        "name": "Ramki R",
+        "event": "Fractal Fanatic",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PW13": {
+        "name": "Jonathan Joseph",
+        "event": "Hack-In",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PW11": {
+        "name": "Ishwarya S",
+        "event": "Hack-In",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD06": {
+        "name": "Bhargavi M",
+        "event": "Inquizitives",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PT15": {
+        "name": "Jeyakumaran M",
+        "event": "Inquizitives",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX119": {
+        "name": "R A Nithish Pranav",
+        "event": "Invenirer",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD26": {
+        "name": "Praveen S",
+        "event": "Last Stand - Nfs",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD01": {
+        "name": "Aakash V",
+        "event": "Last Stand - Nfs",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD22": {
+        "name": "Nithilaa U",
+        "event": "Mathpirates",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PD35": {
+        "name": "Sivaram T",
+        "event": "Mathpirates",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX125": {
+        "name": "Sanjay Prakash B",
+        "event": "Nethunt",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PW26": {
+        "name": "Priyadharshini K",
+        "event": "Reverse Coding",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PW37": {
+        "name": "Tejas E",
+        "event": "Reverse Coding",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX220": {
+        "name": "Sankeerthan V R",
+        "event": "Star Of Login 2K22",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX211": {
+        "name": "Mridula R",
+        "event": "Techiadz",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "21MX230": {
+        "name": "Ziaul Akram M",
+        "event": "Thinklytics",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PW08": {
+        "name": "Sakthi Ganesh G",
+        "event": "Triple-Trouble",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "18PW15": {
+        "name": "Kaviyashri A",
+        "event": "Triple-Trouble",
+        "position": "Coordinator",
+        "roles": [
+            1025674120173731870
+        ]
+    },
+    "20PT06": {
+        "name": "Dharunraj",
+        "event": "Algocode",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PT17": {
+        "name": "Naveen Kumar",
+        "event": "Algocode",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PT32": {
+        "name": "Siva Aadesh",
+        "event": "Last Stand",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PT27": {
+        "name": "Sai Shree Hamsini",
+        "event": "Last Stand",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PT18": {
+        "name": "Navin Aananathan",
+        "event": "Eureka",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PT14": {
+        "name": "Krishna Shree",
+        "event": "Eureka",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PD04": {
+        "name": "Varun S",
+        "event": "Datathon",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PD36": {
+        "name": "Anrutha Jk",
+        "event": "Datathon",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PD25": {
+        "name": "Santhosh",
+        "event": "Reverse Coding",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PD27": {
+        "name": "Shreya",
+        "event": "Reverse Coding",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PW18": {
+        "name": "Kishore",
+        "event": "Triple Trouble",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PW21": {
+        "name": "Medam Sai Pranathi",
+        "event": "Triple Trouble",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PW16": {
+        "name": "Karthik Manian",
+        "event": "Math Pirates",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PW08": {
+        "name": "Deepthi",
+        "event": "Math Pirates",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PC06": {
+        "name": "Anantha Vijay",
+        "event": "Hack In",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PC25": {
+        "name": "Niveditha S",
+        "event": "Hack In",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PC34": {
+        "name": "Vanathi",
+        "event": "Inquizitives ",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "20PC38": {
+        "name": "Vidhul Praveen",
+        "event": "Inquizitives ",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "": {
+        "name": "Arivuselvan S",
+        "event": "Star Of Login",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX222": {
+        "name": "Santhosh Kumar A",
+        "event": "Nethunt",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX122": {
+        "name": "Sathiyalingesh",
+        "event": "Code Sprint",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX214": {
+        "name": "Pavithran R ",
+        "event": "Invenirer",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX209": {
+        "name": "Naresh Parkav A",
+        "event": "Cybernerd",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX202": {
+        "name": "Arunkumar R",
+        "event": "Thinklytics",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX114": {
+        "name": "Manoharan  R",
+        "event": "Artistry",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX118": {
+        "name": "Pavithra A",
+        "event": "Colloquy",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX130": {
+        "name": "Varuna R",
+        "event": "Flip-Flop",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "22MX120": {
+        "name": "Rajkumar B",
+        "event": "Techiadz",
+        "position": "Deputy Coordinator",
+        "roles": [
+            1025674190948409344
+        ]
+    },
+    "18PD28": {
+        "name": "Raghul Prashath K A",
+        "event": "",
+        "position": "Joint Secretary",
+        "roles": [
+            1018189809254146108,
+            1018183741799153806
+        ]
+    },
+    "18PT13": {
+        "name": "Harish A Kumar",
+        "event": "",
+        "position": "Executive Coordinator",
+        "roles": [
+            1018189874651730000,
+            1018183741799153806
+        ]
+    },
+    "18PW32": {
+        "name": "Sanjay B",
+        "event": "",
+        "position": "Treasurer",
+        "roles": [
+            1018190039273980044,
+            1018183741799153806
+        ]
+    },
+    "21MX117": {
+        "name": "Pradeep Yoganandam",
+        "event": "",
+        "position": "Secretary",
+        "roles": [
+            1025675623508746240,
+            1018183741799153806
+        ]
+    }
+}
