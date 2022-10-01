@@ -1,13 +1,10 @@
 import discord
-# from dotenv import load_dotenv, find_dotenv
 import os
 import json
 from datetime import datetime
 import re
-# import server
 import database as db
-
-# load_dotenv(find_dotenv())
+import pytz
 
 intents = discord.Intents.all()
 bot = discord.Client(intents=intents)
@@ -24,7 +21,7 @@ conn = db.get_connection()
 @bot.event
 async def on_ready():
   log = open("./data/logs.txt", "a")
-  log.write(f"[{datetime.now()}] [bot] : Bot logged in\n")
+  log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] [bot] : Bot logged in\n")
   log.close()
 
 
@@ -33,18 +30,18 @@ async def add_role_member(message: discord.message.Message, log):
   user = guild.get_member(message.author.id)
 
   log.write(
-    f"[{datetime.now()}] : [{user.name}] \t{message.content} is a PSG Student\n"
+    f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} is a PSG Student\n"
   )
 
   if message.content.upper() in userRoleMapping.keys():
 
     nickname = f'{userRoleMapping[message.content.upper()]["name"]}'
     if userRoleMapping[message.content.upper()]["event"] != "":
-      nickname += userRoleMapping[message.content.upper()]["event"]
+      nickname += userRoleMapping[message.content.upper()]["event"].replace(" - Nfs","").replace(" - Valorant","").replace(" - Poster Presentation","").replace(" - Paper Presentation","")
 
     await user.edit(nick=nickname)
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
     )
 
     await user.edit(roles=[])
@@ -56,7 +53,7 @@ async def add_role_member(message: discord.message.Message, log):
                          reason=f"Role [{roles}] assigned upon on request")
 
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t{message.content} added roles {roles}\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
     )
 
   else:
@@ -65,7 +62,7 @@ async def add_role_member(message: discord.message.Message, log):
       "Your request cannot be processed. Please contact your Event Coordinator or Admin to gain access"
     )
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t{message.content} Not available in database\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} Not available in database\n"
     )
 
 
@@ -78,7 +75,7 @@ async def add_role_participant(message: discord.message.Message, log):
   if events:
 
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
     )
 
     roles = [
@@ -90,20 +87,20 @@ async def add_role_participant(message: discord.message.Message, log):
     nickname = db.get_user_name(message.content, conn).title()
     await user.edit(nick=nickname)
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
     )
 
     await user.add_roles(*roles,
                          reason=f"Role [{roles}] assigned upon on request")
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t{message.content} added roles {roles}\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
     )
   else:
     log.write(
-      f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Not a Registered Participant\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` is a Not a Registered Participant\n"
     )
     await user.send(
-      "Oh oohh!, it seems like you haven't registered for Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://psglogin.in"
+      "Oh oohh!, it seems like you haven't registered for Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://www.psglogin.in"
     )
 
 
@@ -120,13 +117,20 @@ async def on_message(message: discord.message.Message):
   if message.content == "dumpautologs":
     await message.channel.send(file=discord.File("./data/logs.txt"))
     log.write(
-      f"[{datetime.now()}] : [{ message.author.name}] requested log file.\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{ message.author.name}] requested log file.\n"
     )
+
+  if message.content.startswith("dumpautologs -t"):
+    count = int(message.content.split(" ")[2])
+    log_file = open("./data/logs.txt")
+    logs = [log for log in log_file]
+    send_logs = "```\n" + "\n".join(logs[-count:]) + "\n```"
+    await message.channel.send(send_logs)
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
     await message.delete()
     log.write(
-      f"[{datetime.now()}] : [{bot.get_user(message.author.id).name}] \tMessage Deleted `{message.content}`\n"
+      f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{bot.get_user(message.author.id).name}] \tMessage Deleted `{message.content}`\n"
     )
     if re.match(r"\d{2}\w{2}\d+", message.content.upper()):
       await add_role_member(message=message, log=log)
@@ -138,5 +142,4 @@ async def on_message(message: discord.message.Message):
 
 
 if __name__ == "__main__":
-  # server.start()
   bot.run(os.environ["BOT_TOKEN"])
