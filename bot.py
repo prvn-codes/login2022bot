@@ -48,7 +48,7 @@ async def add_role_member(message: discord.message.Message, log):
       f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
     )
 
-    await user.edit(roles=[])
+
     if message.guild.id == int(os.environ["LAST_STAND_GUILD"]):
       roles = [
         discord.utils.get(guild.roles, id=role_id)
@@ -59,6 +59,7 @@ async def add_role_member(message: discord.message.Message, log):
         discord.utils.get(guild.roles, id=role_id)
         for role_id in userRoleMapping[message.content.upper()]["roles"]
       ]
+    await user.edit(roles=[])
     await user.add_roles(*roles,
                          reason=f"Role [{roles}] assigned upon on request")
 
@@ -106,6 +107,7 @@ async def add_role_participant(message: discord.message.Message, log):
           f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
         )
 
+        await user.edit(roles=[])
         await user.add_roles(*roles,
                             reason=f"Role [{roles}] assigned upon on request")
         log.write(
@@ -127,7 +129,7 @@ async def add_role_participant(message: discord.message.Message, log):
       log.write(
         f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
       )
-
+      await user.edit(roles=[])
       await user.add_roles(*roles,
                           reason=f"Role [{roles}] assigned upon on request")
       log.write(
