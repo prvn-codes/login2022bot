@@ -145,7 +145,7 @@ async def on_message(message: discord.message.Message):
     log_file = open("./data/logs.txt")
     logs = [log for log in log_file]
     send_logs = "```\n" + "\n".join(logs[:-count]) + "\n```"
-    message.channel.send(send_logs)
+    await message.channel.send(send_logs)
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
     await message.delete()
