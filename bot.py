@@ -4,7 +4,7 @@ import os
 import json
 from datetime import datetime
 import re
-# import server
+import server
 import database as db
 
 # load_dotenv(find_dotenv())
@@ -131,5 +131,5 @@ async def on_message(message: discord.message.Message):
 
 
 if __name__ == "__main__":
-  # server.start()
+  server.start()
   bot.run(os.environ["BOT_TOKEN"])
