@@ -40,7 +40,7 @@ async def add_role_member(message: discord.message.Message, log):
 
     nickname = f'{userRoleMapping[message.content.upper()]["name"]}'
     if userRoleMapping[message.content.upper()]["event"] != "":
-      nickname += " | " + userRoleMapping[message.content.upper()]["event"]
+      nickname += " | " + userRoleMapping[message.content.upper()]["event"].replace(" - Nfs","").replace(" - Valorant","").replace(" - Poster Presentation","").replace(" - Paper Presentation","")
 
     await user.edit(nick=nickname)
     log.write(
