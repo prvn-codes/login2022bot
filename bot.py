@@ -144,7 +144,7 @@ async def on_message(message: discord.message.Message):
     count = int(message.content.split(" ")[2])
     log_file = open("./data/logs.txt")
     logs = [log for log in log_file]
-    send_logs = "```\n" + "\n".join(logs[:-count]) + "\n```"
+    send_logs = "```\n" + "\n".join(logs[-count:]) + "\n```"
     await message.channel.send(send_logs)
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
