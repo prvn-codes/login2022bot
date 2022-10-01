@@ -1,3 +1,4 @@
+from threading import Thread
 import discord
 # from dotenv import load_dotenv, find_dotenv
 import os
@@ -141,6 +142,19 @@ def home():
     logs = logs[::-1]
     return render_template("log.html", logs= logs)
 
+def start_bot():
+    bot.run(os.environ["BOT_TOKEN"])
+
+def start_server():
+    app.run(host="0.0.0.0", port=8080, debug=True)
+
+
 if __name__ == "__main__":
-  bot.run(os.environ["BOT_TOKEN"])
-  app.run(host="0.0.0.0", port=8080, debug=True)
+  # bot.run(os.environ["BOT_TOKEN"])
+  # app.run(host="0.0.0.0", port=8080, debug=True)
+  t1 = Thread(target=start_bot)
+  t2 = Thread(target=start_server)
+  t1.start()
+  t2.start()
+  t1.join()
+  t2.join()
