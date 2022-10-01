@@ -119,6 +119,9 @@ async def on_message(message: discord.message.Message):
 
   if message.content == "dumpautologs":
     await message.channel.send(file=discord.File("./data/logs.txt"))
+    log.write(
+      f"[{datetime.now()}] : [{ message.author.name}] requested log file.\n"
+    )
 
   if message.channel.id == int(os.environ["CHANNEL_ID"]):
     await message.delete()
