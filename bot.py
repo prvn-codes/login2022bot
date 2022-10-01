@@ -131,9 +131,11 @@ async def on_message(message: discord.message.Message):
   log.close()
 
 def keep_alive_bot():
+  print("keep_alive_bot")
   bot.run(os.environ["BOT_TOKEN"])
 
 def start_bot():
+  print("start_bot")
   t1 = Thread(target=keep_alive_bot)
   t1.start()
 
