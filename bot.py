@@ -113,14 +113,14 @@ async def add_role_participant(message: discord.message.Message, log):
       f"[{datetime.now()}] : [{user.name}] \t`{message.content}` has Not a Registered for LastStand\n"
       )
       await user.send(
-        "Oh oohh!, it seems like you haven't registered for the event Last Stand, Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://psglogin.in\n\nIf you have registered for other events from Login 2022 please join our **Login 2022 Discord Server** at https://discord.com/invite/RTrVjqMYF8"
+        "Oh oohh!, it seems like you haven't registered for the event Last Stand, Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://www.psglogin.in\n\nIf you have registered for other events from Login 2022 please join our **Login 2022 Discord Server** at https://discord.com/invite/RTrVjqMYF8"
       )
   else:
     log.write(
       f"[{datetime.now()}] : [{user.name}] \t`{message.content}` is a Not a Registered Participant\n"
     )
     await user.send(
-      "Oh oohh!, it seems like you haven't registered for Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://psglogin.in"
+      "Oh oohh!, it seems like you haven't registered for Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://www.psglogin.in"
     )
 
 
