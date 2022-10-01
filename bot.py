@@ -16,10 +16,11 @@ userRoleMapping = json.load(fp=fp)
 fp = open("./data/eventRoleMapping.json", "r")
 eventRoleMapping = json.load(fp=fp)
 
-lsEventRoleMapping = {
-  "Valorant" : 1018184079092482142,
-  "NFS" : 1018184145777741847,
-  "PARTICIPANT" : 1018184021873803264
+fp = open("./data/lseventRoleMapping.json", "r")
+lseventRoleMapping = json.load(fp=fp)
+
+eventRoleMapping = {
+  
 }
 
 conn = db.get_connection()
@@ -52,10 +53,16 @@ async def add_role_member(message: discord.message.Message, log):
     )
 
     await user.edit(roles=[])
-    roles = [
-      discord.utils.get(guild.roles, id=role_id)
-      for role_id in userRoleMapping[message.content.upper()]["roles"]
-    ]
+    if message.guild.id == os.environ["LAST_STAND_GUILD"]:
+      roles = [
+        discord.utils.get(guild.roles, id=role_id)
+        for role_id in lsuserRoleMapping[message.content.upper()]["roles"]
+      ]
+    else:
+      roles = [
+        discord.utils.get(guild.roles, id=role_id)
+        for role_id in userRoleMapping[message.content.upper()]["roles"]
+      ]
     await user.add_roles(*roles,
                          reason=f"Role [{roles}] assigned upon on request")
 
@@ -83,16 +90,16 @@ async def add_role_participant(message: discord.message.Message, log):
   if userRegistered != "UserNameNotFound":
     if events:
       if message.guild.id == os.environ["LAST_STAND_GUILD"]:
-        roles = [discord.utils.get(guild.roles, id=lsEventRoleMapping["PARTICIPANT"])]
+        roles = [discord.utils.get(guild.roles, id=eventRoleMapping["ls-participant"])]
         if ("laststand-valorant" in events) or "laststand-nfs" in events:
           log.write(
             f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` is a Registered Participant\n"
           )
 
           if "laststand-valorant" in events:
-            roles.append(discord.utils.get(guild.roles, id=lsEventRoleMapping["VALORANT"]))
+            roles.append(discord.utils.get(guild.roles, id=eventRoleMapping["ls-valorant"]))
           if "laststand-nfs" in events:
-            roles.append(discord.utils.get(guild.roles, id=lsEventRoleMapping["NFS"]))
+            roles.append(discord.utils.get(guild.roles, id=eventRoleMapping["ls-nfs"]))
         else:
           await user.send(
             "Oh oohh!, it seems like you haven't registered for the event Last Stand, Login 2022. Please Register through our website and try again later! If this continues, please contact Server Admin\n\n Website : https://www.psglogin.in\n\nIf you have registered for other events from Login 2022 please join our **Login 2022 Discord Server** at https://discord.com/invite/RTrVjqMYF8"
@@ -119,17 +126,17 @@ async def add_role_participant(message: discord.message.Message, log):
         for event in events:
           roles.append(discord.utils.get(guild.roles, id=eventRoleMapping[event]))
 
-        nickname = db.get_user_name(message.content, conn).title()
-        await user.edit(nick=nickname)
-        log.write(
-          f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
-        )
+      nickname = db.get_user_name(message.content, conn).title()
+      await user.edit(nick=nickname)
+      log.write(
+        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n"
+      )
 
-        await user.add_roles(*roles,
-                            reason=f"Role [{roles}] assigned upon on request")
-        log.write(
-          f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
-        )
+      await user.add_roles(*roles,
+                          reason=f"Role [{roles}] assigned upon on request")
+      log.write(
+        f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t{message.content} added roles {roles}\n"
+      )
     else:
       log.write(
         f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{user.name}] \t`{message.content}` has not registered any events\n"

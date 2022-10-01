@@ -4,8 +4,7 @@
         "event": "Algocode",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314435891507354
+            1025674120173731870
         ]
     },
     "18PT16": {
@@ -13,8 +12,7 @@
         "event": "Algocode",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314435891507354
+            1025674120173731870
         ]
     },
     "21MX201": {
@@ -22,8 +20,7 @@
         "event": "Artistry",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314444728913980
+            1025674120173731870
         ]
     },
     "21MX218": {
@@ -31,8 +28,7 @@
         "event": "Codesprint",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314454149308487
+            1025674120173731870
         ]
     },
     "21MX202": {
@@ -40,8 +36,7 @@
         "event": "Colloquy",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314786279456778
+            1025674120173731870
         ]
     },
     "21MX108": {
@@ -49,8 +44,7 @@
         "event": "Cybernerd",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314808073072690
+            1025674120173731870
         ]
     },
     "18PD36": {
@@ -58,8 +52,7 @@
         "event": "Data-Thon",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314829568880740
+            1025674120173731870
         ]
     },
     "18PD38": {
@@ -67,26 +60,23 @@
         "event": "Data-Thon",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314829568880740
+            1025674120173731870
         ]
     },
     "18PD23": {
         "name": "Parkavi S",
-        "event": "Eureka",
+        "event": "Eureka - Poster Presentation",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020311817345585173
+            1025674120173731870
         ]
     },
     "18PT38": {
         "name": "Swarna S",
-        "event": "Eureka",
+        "event": "Eureka - Poster Presentation",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020311817345585173
+            1025674120173731870
         ]
     },
     "21MX210": {
@@ -94,8 +84,7 @@
         "event": "Flip-Flop",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314962566074440
+            1025674120173731870
         ]
     },
     "21PA18": {
@@ -103,8 +92,7 @@
         "event": "Fractal Fanatic",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314942391451741
+            1025674120173731870
         ]
     },
     "21PA12": {
@@ -112,8 +100,7 @@
         "event": "Fractal Fanatic",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314942391451741
+            1025674120173731870
         ]
     },
     "18PW13": {
@@ -121,8 +108,7 @@
         "event": "Hack-In",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314892403753003
+            1025674120173731870
         ]
     },
     "18PW11": {
@@ -130,8 +116,7 @@
         "event": "Hack-In",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020314892403753003
+            1025674120173731870
         ]
     },
     "18PD06": {
@@ -139,8 +124,7 @@
         "event": "Inquizitives",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315096842522715
+            1025674120173731870
         ]
     },
     "18PT15": {
@@ -148,8 +132,7 @@
         "event": "Inquizitives",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315096842522715
+            1025674120173731870
         ]
     },
     "21MX119": {
@@ -157,26 +140,23 @@
         "event": "Invenirer",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315139532128327
+            1025674120173731870
         ]
     },
     "18PD26": {
         "name": "Praveen S",
-        "event": "Last Stand",
+        "event": "Last Stand - Nfs",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315394138968135
+            1025674120173731870
         ]
     },
     "18PD01": {
         "name": "Aakash V",
-        "event": "Last Stand",
+        "event": "Last Stand - Nfs",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315394138968135
+            1025674120173731870
         ]
     },
     "18PD22": {
@@ -184,8 +164,7 @@
         "event": "Mathpirates",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315182074966056
+            1025674120173731870
         ]
     },
     "18PD35": {
@@ -193,8 +172,7 @@
         "event": "Mathpirates",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315182074966056
+            1025674120173731870
         ]
     },
     "21MX125": {
@@ -202,8 +180,7 @@
         "event": "Nethunt",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315223858618369
+            1025674120173731870
         ]
     },
     "18PW26": {
@@ -211,8 +188,7 @@
         "event": "Reverse Coding",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315266225279008
+            1025674120173731870
         ]
     },
     "18PW37": {
@@ -220,17 +196,15 @@
         "event": "Reverse Coding",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315266225279008
+            1025674120173731870
         ]
     },
     "21MX220": {
         "name": "Sankeerthan V R",
-        "event": "Star Of Login",
+        "event": "Star Of Login 2K22",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315308910723082
+            1025674120173731870
         ]
     },
     "21MX211": {
@@ -238,8 +212,7 @@
         "event": "Techiadz",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315350342062103
+            1025674120173731870
         ]
     },
     "21MX230": {
@@ -247,8 +220,7 @@
         "event": "Thinklytics",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315435704537118
+            1025674120173731870
         ]
     },
     "18PW08": {
@@ -256,8 +228,7 @@
         "event": "Triple-Trouble",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315478951989299
+            1025674120173731870
         ]
     },
     "18PW15": {
@@ -265,8 +236,7 @@
         "event": "Triple-Trouble",
         "position": "Coordinator",
         "roles": [
-            1020308729796763669,
-            1020315478951989299
+            1025674120173731870
         ]
     },
     "20PT06": {
@@ -274,8 +244,7 @@
         "event": "Algocode",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PT17": {
@@ -283,8 +252,7 @@
         "event": "Algocode",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PT32": {
@@ -292,8 +260,7 @@
         "event": "Last Stand",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PT27": {
@@ -301,8 +268,7 @@
         "event": "Last Stand",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PT18": {
@@ -310,8 +276,7 @@
         "event": "Eureka",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PT14": {
@@ -319,8 +284,7 @@
         "event": "Eureka",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PD04": {
@@ -328,8 +292,7 @@
         "event": "Datathon",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PD36": {
@@ -337,8 +300,7 @@
         "event": "Datathon",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PD25": {
@@ -346,8 +308,7 @@
         "event": "Reverse Coding",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PD27": {
@@ -355,8 +316,7 @@
         "event": "Reverse Coding",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PW18": {
@@ -364,8 +324,7 @@
         "event": "Triple Trouble",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PW21": {
@@ -373,8 +332,7 @@
         "event": "Triple Trouble",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PW16": {
@@ -382,8 +340,7 @@
         "event": "Math Pirates",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PW08": {
@@ -391,8 +348,7 @@
         "event": "Math Pirates",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PC06": {
@@ -400,8 +356,7 @@
         "event": "Hack In",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PC25": {
@@ -409,8 +364,7 @@
         "event": "Hack In",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PC34": {
@@ -418,8 +372,7 @@
         "event": "Inquizitives ",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "20PC38": {
@@ -427,8 +380,7 @@
         "event": "Inquizitives ",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "": {
@@ -436,8 +388,7 @@
         "event": "Star Of Login",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX222": {
@@ -445,8 +396,7 @@
         "event": "Nethunt",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX122": {
@@ -454,8 +404,7 @@
         "event": "Code Sprint",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX214": {
@@ -463,8 +412,7 @@
         "event": "Invenirer",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX209": {
@@ -472,8 +420,7 @@
         "event": "Cybernerd",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX202": {
@@ -481,8 +428,7 @@
         "event": "Thinklytics",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX114": {
@@ -490,8 +436,7 @@
         "event": "Artistry",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX118": {
@@ -499,8 +444,7 @@
         "event": "Colloquy",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX130": {
@@ -508,8 +452,7 @@
         "event": "Flip-Flop",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "22MX120": {
@@ -517,8 +460,7 @@
         "event": "Techiadz",
         "position": "Deputy Coordinator",
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1025674190948409344
         ]
     },
     "18PD28": {
@@ -526,8 +468,8 @@
         "event": "",
         "position": "Joint Secretary",
         "roles": [
-            1020308354532393050,
-            1020308517174906881
+            1018189809254146108,
+            1018183741799153806
         ]
     },
     "18PT13": {
@@ -535,8 +477,8 @@
         "event": "",
         "position": "Executive Coordinator",
         "roles": [
-            1020308354532393050,
-            1020308442721812521
+            1018189874651730000,
+            1018183741799153806
         ]
     },
     "18PW32": {
@@ -544,8 +486,8 @@
         "event": "",
         "position": "Treasurer",
         "roles": [
-            1020308354532393050,
-            1020308601945980938
+            1018190039273980044,
+            1018183741799153806
         ]
     },
     "21MX117": {
@@ -553,9 +495,8 @@
         "event": "",
         "position": "Secretary",
         "roles": [
-            1020308354532393050,
-            1020308662671126538
+            1025675623508746240,
+            1018183741799153806
         ]
     }
-          
 }
