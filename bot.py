@@ -172,7 +172,7 @@ async def on_message(message: discord.message.Message):
       f"--- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{ message.author.name}] requested log file.\n"
     )
 
-  if message.channel.id == int(os.environ["CHANNEL_ID"]):
+  if message.channel.id == int(os.environ["LOGIN_CHANNEL_ID"]) or message.channel.id == int(os.environ["LAST_STAND_CHANNEL_ID"]):
     await message.delete()
     log.write(
       f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{bot.get_user(message.author.id).name}] \tMessage Deleted `{message.content}`\n"
