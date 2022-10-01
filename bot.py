@@ -85,7 +85,7 @@ async def add_role_participant(message: discord.message.Message, log):
 
   if userRegistered != "UserNameNotFound":
     if events:
-      if message.guild.id == os.environ["LAST_STAND_GUILD"]:
+      if message.guild.id == int(os.environ["LAST_STAND_GUILD"]):
         roles = [discord.utils.get(guild.roles, id=eventRoleMapping["ls-participant"])]
         if ("laststand-valorant" in events) or "laststand-nfs" in events:
           log.write(
