@@ -27,7 +27,7 @@ async def on_ready():
   log = open("./data/logs.txt", "a")
   log.write(f"--- [{datetime.now(pytz.timezone('Asia/Calcutta'))}]: [bot] Bot logged in\n")
   log.close()
-  discord.Activity.name = "HI"
+  await bot.change_presence(activity=discord.Streaming(name="Login '22", url="https://www.psglogin.in"))
 
 
 async def add_role_member(message: discord.message.Message, log):
