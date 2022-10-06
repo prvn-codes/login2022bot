@@ -1,0 +1,69 @@
+--- [2022-10-06 21:08:12.815774+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:08:39.314375+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:09:12.416541+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:10:51.370185+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:11:14.403529+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:11:27.052022+05:30] : [praxvyn] requested log file.
+--- [2022-10-06 21:12:36.995560+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:16:18.943577+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:17:04.365022+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:18:39.924960+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:20:34.588607+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:21:07.374657+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:21:43.738681+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:27:04.233136+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:37:20.679921+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:39:46.355383+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:39:56.947790+05:30] : [praxvyn] requested log file.
+--- [2022-10-06 21:40:48.537370+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:47:41.772764+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:48:00.760129+05:30] : [praxvyn] requested log file.
+--- [2022-10-06 21:49:56.740381+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:53:12.002759+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:54:07.336737+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:54:40.810781+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:58:00.676415+05:30]: [bot] Bot logged in
+--- [2022-10-06 21:59:22.284166+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:00:03.293929+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:00:29.302945+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:01:07.211865+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:03:01.834636+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:13:58.697220+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:14:24.428601+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:20:53.168830+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:32:43.860742+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:33:11.489569+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:34:20.262065+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:36:09.582123+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:38:03.609544+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:38:55.060693+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:40:09.909087+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:41:04.881934+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:41:56.314316+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:48:50.890951+05:30]: [bot] Bot logged in
+--- [2022-10-06 22:49:43.231393+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:13:43.743119+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:13:53.715870+05:30] : [praxvyn] requested log file.
+--- [2022-10-06 23:17:11.409538+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:17:16.464029+05:30] : [praxvyn] requested log file.
+--- [2022-10-06 23:17:28.970605+05:30] : [praxvyn] requested log file.
+--- [2022-10-06 23:19:25.865890+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:24:00.943137+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:24:47.157051+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:35:57.953486+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:39:52.425796+05:30]: [bot] Bot not synced 'Bot' object has no attribute 'os'
+--- [2022-10-06 23:39:52.425796+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:41:05.756763+05:30]: [bot] Bot not synced 'Bot' object has no attribute 'os'
+--- [2022-10-06 23:41:05.757767+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:41:36.270089+05:30]: [bot] Bot not synced 'Bot' object has no attribute 'os'
+--- [2022-10-06 23:41:36.271092+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:41:49.630417+05:30]: [bot] Bot not synced 'Bot' object has no attribute 'os'
+--- [2022-10-06 23:41:49.631417+05:30]: [bot] Bot logged in
+--- [2022-10-06 23:44:30.762471+05:30]: [bot] Bot synced [<AppCommand id=1027645045257535488 name='winner' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-06 23:44:30.762471+05:30]: [bot] Bot logged in
+--- [2022-10-07 00:01:37.351169+05:30]: [bot] Bot synced [<AppCommand id=1027649351155208223 name='submit' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-07 00:01:37.351169+05:30]: [bot] Bot logged in
+--- [2022-10-07 00:04:14.129680+05:30]: [bot] Bot synced [<AppCommand id=1027649351155208223 name='submit' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-07 00:04:14.129680+05:30]: [bot] Bot logged in
+--- [2022-10-07 00:05:33.242652+05:30]: [bot] Bot synced [<AppCommand id=1027649351155208223 name='submit' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-07 00:05:33.242652+05:30]: [bot] Bot logged in
