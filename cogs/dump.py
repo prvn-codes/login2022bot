@@ -23,7 +23,7 @@ class Dump(commands.Cog):
         log_file = open("./data/logs.txt")
         logs = [log for log in log_file]
         count = int(arg)
-        if int(arg) < len(logs):
+        if int(arg) > len(logs):
             count = len(logs)
         send_logs = "```diff\n" + "\n".join(logs[-count:]) + "\n```"
         await message.channel.send(send_logs)
