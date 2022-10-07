@@ -28,6 +28,8 @@ async def addRoleMember(bot, message: discord.message.Message, log):
     if userRoleMapping[message.content.upper()]["event"] != "":
       nickname += " | " + userRoleMapping[message.content.upper()]["event"].replace(" - Nfs","").replace(" - Valorant","").replace(" - Poster Presentation","").replace(" - Paper Presentation","")
 
+    if len(nickname) > 32:
+      nickname = f'{userRoleMapping[message.content.upper()]["name"]}'
     await user.edit(nick=nickname)
     log.write(f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n")
 
