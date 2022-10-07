@@ -13,8 +13,8 @@ from discord import Status, app_commands
 import time
 import requests
 
-import set_environs
-set_environs.setup_environs()
+# import set_environs
+# set_environs.setup_environs()
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
@@ -66,7 +66,7 @@ async def on_message(message: discord.message.Message):
   await bot.process_commands(message)
 
 
-@bot.tree.command(name="submit", description="To submit **your event's** winners and runners")
+@bot.tree.command(name="submit_result", description="To submit **your event's** winners and runners")
 @app_commands.checks.has_any_role(1020308729796763669,1020316038178553937)
 @app_commands.choices(
   position = [
