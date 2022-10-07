@@ -16,7 +16,7 @@ class Dump(commands.Cog):
         log.write(f"--- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{ message.author.name}] requested log file.\n")
         log.close()
     
-    @commands.command(name='dumplogs')
+    @commands.command(name='dumplogst')
     async def dumplogs(self, message: discord.message.Message, arg):
         log = open("./data/logs.txt", "a")
 
