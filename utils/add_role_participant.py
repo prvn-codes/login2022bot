@@ -49,7 +49,7 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
         await user.edit(roles=[])
         await user.add_roles(*roles)
         role_names = "\n".join(role.name for role in roles) 
-        role_names.replace("Participants","")
+        role_names = role_names.replace("Participants","")
         await user.send(f"Thank you for registering!\nHere is the list of Events you have registered : \n{role_names}")
         log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n")
       
@@ -68,7 +68,7 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
       await user.edit(roles=[])
       await user.add_roles(*roles)
       role_names = "\n".join(role.name for role in roles) 
-      role_names.replace("Participants","")
+      role_names = role_names.replace("Participants","")
       await user.send(f"Thank you for registering!\nHere is the list of Events you have registered : \n{role_names}")
       log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n")
     
