@@ -2,523 +2,3017 @@
     "18PT12": {
         "name": "Harini M",
         "event": "Algocode",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Algocode"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314435891507354
         ]
     },
     "18PT16": {
         "name": "Kaushik Ram Ka",
         "event": "Algocode",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Algocode"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314435891507354
         ]
     },
     "21MX201": {
         "name": "Abbhilash R",
         "event": "Artistry",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "artistry"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314444728913980
         ]
     },
     "21MX218": {
         "name": "Rajesh Kumar R",
         "event": "Codesprint",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "codesprint"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314454149308487
         ]
     },
     "21MX202": {
         "name": "Dhiyanesh M",
         "event": "Colloquy",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "colloquy"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314786279456778
         ]
     },
     "21MX108": {
         "name": "Issac Kingslin G",
         "event": "Cybernerd",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "cybernerd"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314808073072690
         ]
     },
     "18PD36": {
         "name": "Snehaa S",
         "event": "Data-Thon",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Data-Thon"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314829568880740
         ]
     },
     "18PD38": {
-        "name": "Rethik Nirmal V",
+        "name": "V Rethik Nirmal",
         "event": "Data-Thon",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Data-Thon"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314829568880740
         ]
     },
     "18PD23": {
         "name": "Parkavi S",
-        "event": "Eureka",
-        "position": "Coordinator",
+        "event": "Eureka-Paperpresentation",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Eureka-Paperpresentation"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020311817345585173
         ]
     },
     "18PT38": {
         "name": "Swarna S",
-        "event": "Eureka",
-        "position": "Coordinator",
+        "event": "Eureka-Paperpresentation",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Eureka-Paperpresentation"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020311817345585173
         ]
     },
     "21MX210": {
         "name": "Maheashkumar M",
         "event": "Flip-Flop",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "flip-flop"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314962566074440
         ]
     },
     "21PA18": {
         "name": "Swetha N",
         "event": "Fractal Fanatic",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "fractalfanatic"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314942391451741
         ]
     },
     "21PA12": {
         "name": "Ramki R",
         "event": "Fractal Fanatic",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "fractalfanatic"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314942391451741
         ]
     },
     "18PW13": {
         "name": "Jonathan Joseph",
         "event": "Hack-In",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Hack-In"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314892403753003
         ]
     },
     "18PW11": {
         "name": "Ishwarya S",
         "event": "Hack-In",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Hack-In"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020314892403753003
         ]
     },
     "18PD06": {
         "name": "Bhargavi M",
         "event": "Inquizitives",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Inquizitives"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315096842522715
         ]
     },
     "18PT15": {
         "name": "Jeyakumaran M",
         "event": "Inquizitives",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Inquizitives"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315096842522715
         ]
     },
     "21MX119": {
         "name": "R A Nithish Pranav",
         "event": "Invenirer",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "invenirer"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315139532128327
         ]
     },
     "18PD26": {
         "name": "Praveen S",
-        "event": "Last Stand",
-        "position": "Coordinator",
+        "event": "Laststand-Valorant",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Laststand-Valorant"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315394138968135
         ]
     },
     "18PD01": {
         "name": "Aakash V",
-        "event": "Last Stand",
-        "position": "Coordinator",
+        "event": "Laststand-Valorant",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Laststand-Valorant"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315394138968135
         ]
     },
     "18PD22": {
-        "name": "Nithilaa U",
+        "name": "Nithilaa",
         "event": "Mathpirates",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Mathpirates"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315182074966056
         ]
     },
     "18PD35": {
-        "name": "Sivaram T",
+        "name": "Sivaram",
         "event": "Mathpirates",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Mathpirates"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315182074966056
         ]
     },
     "21MX125": {
         "name": "Sanjay Prakash B",
         "event": "Nethunt",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "nethunt"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315223858618369
         ]
     },
     "18PW26": {
-        "name": "Priyadharshini K",
-        "event": "Reverse Coding",
-        "position": "Coordinator",
+        "name": "Priyadarshini K",
+        "event": "Reversecoding",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Reversecoding"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315266225279008
         ]
     },
     "18PW37": {
         "name": "Tejas E",
-        "event": "Reverse Coding",
-        "position": "Coordinator",
+        "event": "Reversecoding",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Reversecoding"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315266225279008
         ]
     },
     "21MX220": {
         "name": "Sankeerthan V R",
-        "event": "Star Of Login",
-        "position": "Coordinator",
+        "event": "Star Of Login 2K22",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "staroflogin2k22"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315308910723082
         ]
     },
     "21MX211": {
         "name": "Mridula R",
         "event": "Techiadz",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "techiadz"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315350342062103
         ]
     },
     "21MX230": {
         "name": "Ziaul Akram M",
         "event": "Thinklytics",
-        "position": "Coordinator",
+        "position": "Event Coordinator",
+        "role_names": [
+            "event-coordinator",
+            "thinklytics"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315435704537118
         ]
     },
     "18PW08": {
-        "name": "Sakthi Ganesh G",
+        "name": "G Sakthi Ganesh",
         "event": "Triple-Trouble",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315478951989299
         ]
     },
     "18PW15": {
-        "name": "Kaviyashri A",
+        "name": "A Kaviyashri",
         "event": "Triple-Trouble",
-        "position": "Coordinator",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020308729796763669,
+            1027982041901436938,
             1020315478951989299
         ]
     },
-    "20PT06": {
-        "name": "Dharunraj",
-        "event": "Algocode",
-        "position": "Deputy Coordinator",
+    "18PT03": {
+        "name": "Anantha Raam",
+        "event": "Accommodation",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Accommodation"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982041901436938,
+            1027981963191140354
+        ]
+    },
+    "18PD33": {
+        "name": "Shreenidhi",
+        "event": "Accommodation",
+        "position": "Event-Coordinator",
+        "role_names": [
+            "Event-Coordinator",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982041901436938,
+            1027981963191140354
+        ]
+    },
+    "20PT21": {
+        "name": "Niranjani V",
+        "event": "Accommodation",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982054824095815,
+            1027981963191140354
+        ]
+    },
+    "20PT09": {
+        "name": "Govind",
+        "event": "Accommodation",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982054824095815,
+            1027981963191140354
+        ]
+    },
+    "20PT40": {
+        "name": "Vishwavijeth V",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PT13": {
+        "name": "Kaamesh K",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PD37": {
+        "name": "Varun Vaibhav",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "20PD07": {
+        "name": "Satya Prasad",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "20PT03": {
+        "name": "Anirudh Krishna S",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PT35": {
+        "name": "Sudharsan",
+        "event": "Eureka-Paperpresentation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Eureka-Paperpresentation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020311817345585173
+        ]
+    },
+    "20PT22": {
+        "name": "Niveditha",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "20PT16": {
+        "name": "Mona Srii",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "20PT31": {
+        "name": "Sindhu Sundar",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "20PC18": {
+        "name": "Keerthana S",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PT26": {
+        "name": "Santhosh Kumar",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "21PW24": {
+        "name": "S Nithiesh Kannan",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PT01": {
+        "name": "Ananya",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "21PT14": {
+        "name": "Lokeshwar",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "21PT34": {
+        "name": "Shamyukta",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "21PT06": {
+        "name": "Hirrtik",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "21PC40": {
+        "name": "Yamuna Shree",
+        "event": "Accommodation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Accommodation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1027981963191140354
+        ]
+    },
+    "21PC04": {
+        "name": "Aparna T",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
             1020315478951989299
+        ]
+    },
+    "21PC11": {
+        "name": "Gnanambal M",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PT06": {
+        "name": "Dharunraj R",
+        "event": "Algocode",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Algocode"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020314435891507354
         ]
     },
     "20PT17": {
         "name": "Naveen Kumar",
         "event": "Algocode",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Algocode"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020314435891507354
         ]
     },
-    "20PT32": {
-        "name": "Siva Aadesh",
-        "event": "Last Stand",
-        "position": "Deputy Coordinator",
+    "21PD26": {
+        "name": "Dhikshitha",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982071530012692,
+            1020314435891507354
         ]
     },
-    "20PT27": {
-        "name": "Sai Shree Hamsini",
-        "event": "Last Stand",
-        "position": "Deputy Coordinator",
+    "21PT11": {
+        "name": "Raja Mukhesh",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "18PD12": {
+        "name": "Janani K",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "18PD13": {
+        "name": "Janet Macrina G",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "18PT02": {
+        "name": "Amritha N",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PC05": {
+        "name": "Anantha Raman S",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC15": {
+        "name": "Harini A",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC39": {
+        "name": "Vishvabala Cs",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PT02": {
+        "name": "Aishwariya S",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PT04": {
+        "name": "Arjuna Umesh",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PT05": {
+        "name": "Darsini K",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "20PT25": {
+        "name": "Rhubanraj P",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "21PC14": {
+        "name": "Hari Ganesh M",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "21PC22": {
+        "name": "Preetham Bavan E",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PD15": {
+        "name": "Jeevika",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "21PT15": {
+        "name": "Monishraj S",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "21PT38": {
+        "name": "Vishwajeet Bharadwaj",
+        "event": "Algocode",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Algocode"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314435891507354
+        ]
+    },
+    "18PD29": {
+        "name": "Rahul",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "18PD10": {
+        "name": "Harish",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PD36": {
+        "name": "Varun S",
+        "event": "Data-Thon",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020314829568880740
+        ]
+    },
+    "20PD04": {
+        "name": "Anrutha Jk",
+        "event": "Data-Thon",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020314829568880740
+        ]
+    },
+    "20PD15": {
+        "name": "Mathan S",
+        "event": "Data-Thon",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314829568880740
+        ]
+    },
+    "20PD10": {
+        "name": "Shakthi Mahendira K",
+        "event": "Data-Thon",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314829568880740
+        ]
+    },
+    "20PD08": {
+        "name": "Venu",
+        "event": "Data-Thon",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314829568880740
+        ]
+    },
+    "20PD34": {
+        "name": "Surya Sv",
+        "event": "Data-Thon",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314829568880740
+        ]
+    },
+    "20PD09": {
+        "name": "Jash Bhandari",
+        "event": "Data-Thon",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Data-Thon"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314829568880740
         ]
     },
     "20PT18": {
-        "name": "Navin Aananathan",
-        "event": "Eureka",
-        "position": "Deputy Coordinator",
+        "name": "Navin Aananthan",
+        "event": "Eureka-Paperpresentation",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Eureka-Paperpresentation"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020311817345585173
         ]
     },
     "20PT14": {
         "name": "Krishna Shree",
-        "event": "Eureka",
-        "position": "Deputy Coordinator",
+        "event": "Eureka-Paperpresentation",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Eureka-Paperpresentation"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982054824095815,
+            1020311817345585173
+        ]
+    },
+    "21PD20": {
+        "name": "Aiswarya M",
+        "event": "Eureka-Paperpresentation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Eureka-Paperpresentation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020311817345585173
+        ]
+    },
+    "21PW07": {
+        "name": "Janai",
+        "event": "Eureka-Paperpresentation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Eureka-Paperpresentation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020311817345585173
+        ]
+    },
+    "21PW13": {
+        "name": "Mahizha",
+        "event": "Eureka-Paperpresentation",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Eureka-Paperpresentation"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020311817345585173
+        ]
+    },
+    "18PW28": {
+        "name": "Raghul S",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "18PW29": {
+        "name": "Rahul S",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "18PW40": {
+        "name": "Venkat Raman",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
             1020315478951989299
         ]
     },
-    "20PD04": {
-        "name": "Varun S",
-        "event": "Datathon",
-        "position": "Deputy Coordinator",
+    "18PW25": {
+        "name": "Prakash K",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "18PW05": {
+        "name": "Bharadwaj P",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC19": {
+        "name": "Kesav R",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC06": {
+        "name": "Anantha Vijay M",
+        "event": "Hack-In",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020314892403753003
+        ]
+    },
+    "20PC02": {
+        "name": "Ampareeshan M B",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC07": {
+        "name": "Arunprasath",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC25": {
+        "name": "Nivedita S",
+        "event": "Hack-In",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020314892403753003
+        ]
+    },
+    "20PC09": {
+        "name": "Asvika M",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "20PC24": {
+        "name": "Nithiya Shri M",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PC23": {
+        "name": "Renukashree.M",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PC27": {
+        "name": "Sahil Jamadar Sk",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PT37": {
+        "name": "Vishwa R",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PC15": {
+        "name": "Harshad",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PC16": {
+        "name": "Harsith",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PC12": {
+        "name": "Gokul",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020314892403753003
+        ]
+    },
+    "21PC34": {
+        "name": "Shri Meenaakshi S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
             1020315478951989299
         ]
     },
-    "20PD36": {
-        "name": "Anrutha Jk",
-        "event": "Datathon",
-        "position": "Deputy Coordinator",
+    "21PC07": {
+        "name": "Bhadri Narayanan",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982071530012692,
             1020315478951989299
         ]
     },
-    "20PD25": {
-        "name": "Santhosh",
-        "event": "Reverse Coding",
-        "position": "Deputy Coordinator",
+    "21PC08": {
+        "name": "Dharshan",
+        "event": "Hack-In",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Hack-In"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982071530012692,
+            1020314892403753003
         ]
     },
-    "20PD27": {
-        "name": "Shreya",
-        "event": "Reverse Coding",
-        "position": "Deputy Coordinator",
+    "18PT41": {
+        "name": "Charan Kr",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982071530012692,
+            1020315096842522715
         ]
     },
-    "20PW18": {
-        "name": "Kishore",
-        "event": "Triple Trouble",
-        "position": "Deputy Coordinator",
+    "18PT06": {
+        "name": "Ashwath P",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982071530012692,
+            1020315096842522715
         ]
     },
-    "20PW21": {
-        "name": "Medam Sai Pranathi",
-        "event": "Triple Trouble",
-        "position": "Deputy Coordinator",
+    "18PT18": {
+        "name": "Kiurshikesh",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "18PT42": {
+        "name": "Deepan",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "18PT33": {
+        "name": "Shankar Narayanan D",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "20PC34": {
+        "name": "Vanathi P U",
+        "event": "Inquizitives",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315096842522715
+        ]
+    },
+    "20PC12": {
+        "name": "Dhanush M",
+        "event": "Inquizitives",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315096842522715
+        ]
+    },
+    "20PD06": {
+        "name": "Ashwin Kr",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "20PT11": {
+        "name": "Jai Kocher M",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "20PT29": {
+        "name": "Sandeep Khanna V P",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "20PT36": {
+        "name": "Suraj S S",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "20PT39": {
+        "name": "Vishnu Na",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PW16": {
+        "name": "Dhanusri N",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PD13": {
+        "name": "Jagadeesh E",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PD06": {
+        "name": "Dhivyadharshini B",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PT39": {
+        "name": "Lalit C",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PW26": {
+        "name": "Samveda Kz",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PW32": {
+        "name": "Shwethaa D S",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "21PW40": {
+        "name": "Viveka G",
+        "event": "Inquizitives",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Inquizitives"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315096842522715
+        ]
+    },
+    "20PT27": {
+        "name": "Sai Shree Hamsini",
+        "event": "Laststand-Valorant",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315394138968135
+        ]
+    },
+    "20PT32": {
+        "name": "Siva Adeesh",
+        "event": "Laststand-Valorant",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315394138968135
+        ]
+    },
+    "20PT07": {
+        "name": "E S Ezhilmaran",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PT24": {
+        "name": "K R Raksha",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PW32": {
+        "name": "Sanjith",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PW14": {
+        "name": "Karthickpranav",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PW34": {
+        "name": "S Shyam",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PW38": {
+        "name": "L Tamjid",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PT37": {
+        "name": "Tejas Srinivas",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PT38": {
+        "name": "C Venkad Krishna",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "20PD32": {
+        "name": "Sriram",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PD23": {
+        "name": "R.Nithish",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PW18": {
+        "name": "Pranav Adithya",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PD28": {
+        "name": "Rohith Krishna",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PD32": {
+        "name": "Sanjay Ram",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PW10": {
+        "name": "Kanishk Akash",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PW35": {
+        "name": "Sri Nithin",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PW31": {
+        "name": "Shankesh",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "21PW36": {
+        "name": "Sribalakumaran",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "18PT28": {
+        "name": "Ram Annamalai",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "18PT30": {
+        "name": "Sakthivel",
+        "event": "Laststand-Valorant",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Laststand-Valorant"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315394138968135
+        ]
+    },
+    "18PD05": {
+        "name": "Bharathi",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "18PD08": {
+        "name": "Dwaraka",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "18PD14": {
+        "name": "Karthikessh",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "18PD17": {
+        "name": "Majella Yuktha",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "18PD34": {
+        "name": "Sivanandham",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
         ]
     },
     "20PW16": {
         "name": "Karthik Manian",
-        "event": "Math Pirates",
-        "position": "Deputy Coordinator",
+        "event": "Mathpirates",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Mathpirates"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020315182074966056
         ]
     },
     "20PW08": {
         "name": "Deepthi",
-        "event": "Math Pirates",
-        "position": "Deputy Coordinator",
+        "event": "Mathpirates",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Mathpirates"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982054824095815,
+            1020315182074966056
+        ]
+    },
+    "21PC09": {
+        "name": "Feni Auxily A",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PD10": {
+        "name": "Harini K V",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PD37": {
+        "name": "Deeksha",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT07": {
+        "name": "Hariharan J B",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT12": {
+        "name": "Maanasa",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT16": {
+        "name": "Nithish P",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT17": {
+        "name": "Padma Prakash",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT23": {
+        "name": "Reethika",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT25": {
+        "name": "Samyukta",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "21PT29": {
+        "name": "Shreya",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PW33": {
+        "name": "Shriram G",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PW22": {
+        "name": "Mohamed Kaif",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PW37": {
+        "name": "Harini Shri",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PW23": {
+        "name": "Pradiksha",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "20PW31": {
+        "name": "Sambantham",
+        "event": "Mathpirates",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Mathpirates"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315182074966056
+        ]
+    },
+    "18PW14": {
+        "name": "Karthik R",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
             1020315478951989299
         ]
     },
-    "20PC06": {
-        "name": "Anantha Vijay",
-        "event": "Hack In",
-        "position": "Deputy Coordinator",
+    "18PW23": {
+        "name": "Nitish A",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PD11": {
+        "name": "Kartheepan G",
+        "event": "Reversecoding",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315266225279008
+        ]
+    },
+    "20PD27": {
+        "name": "Shreya S",
+        "event": "Reversecoding",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315266225279008
+        ]
+    },
+    "20PD17": {
+        "name": "Muhammed Shimer",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PT33": {
+        "name": "Sreyas S",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PW13": {
+        "name": "Jersha Heartly X",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PD16": {
+        "name": "Kaif Shaheem",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PC39": {
+        "name": "Vishnu Priya",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PD14": {
+        "name": "Jai Subasri",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PT19": {
+        "name": "Pranathi",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PT35": {
+        "name": "Varsha S",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PT18": {
+        "name": "Rashmi",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PW25": {
+        "name": "Swarnesh",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PC03": {
+        "name": "Akhil",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PW10": {
+        "name": "Divya Lakshmi",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PW05": {
+        "name": "Britne",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PW09": {
+        "name": "Dhivya Dharshini",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PD20": {
+        "name": "Ragavan Ks",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PD30": {
+        "name": "Sree Adithya",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PD16": {
+        "name": "Meenakshi",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PC04": {
+        "name": "Amutheswar",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PD17": {
+        "name": "Kamal Nithish P",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PD36": {
+        "name": "Subash S",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "21PD08": {
+        "name": "Prethika Gs",
+        "event": "Reversecoding",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Reversecoding"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315266225279008
+        ]
+    },
+    "20PW18": {
+        "name": "Kishor K R",
+        "event": "Triple-Trouble",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982054824095815,
             1020315478951989299
         ]
     },
-    "20PC25": {
-        "name": "Niveditha S",
-        "event": "Hack In",
-        "position": "Deputy Coordinator",
+    "20PW21": {
+        "name": "Sai Pranathi",
+        "event": "Triple-Trouble",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982054824095815,
             1020315478951989299
         ]
     },
-    "20PC34": {
-        "name": "Vanathi",
-        "event": "Inquizitives ",
-        "position": "Deputy Coordinator",
+    "18PW07": {
+        "name": "Dharani S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW12": {
+        "name": "Jayashree R",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW16": {
+        "name": "Loganayaki",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW31": {
+        "name": "Sandeep N",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW33": {
+        "name": "Sri Sai Arvind S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW34": {
+        "name": "Srinath S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW35": {
+        "name": "Swetha R",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW36": {
+        "name": "Tarun Karthick I",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "18PW42": {
+        "name": "Ashwatha Es",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PC17": {
+        "name": "Jai Vignesh",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PC30": {
+        "name": "Priya",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
             1020315478951989299
         ]
     },
     "20PC38": {
         "name": "Vidhul Praveen",
-        "event": "Inquizitives ",
-        "position": "Deputy Coordinator",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982071530012692,
             1020315478951989299
         ]
     },
-    "": {
-        "name": "Arivuselvan S",
-        "event": "Star Of Login",
-        "position": "Deputy Coordinator",
+    "20PW01": {
+        "name": "Abishek",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
         "roles": [
-            1020316038178553937,
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PW12": {
+        "name": "Jeevickha K A",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PW20": {
+        "name": "Mathiyazhagan S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PW27": {
+        "name": "Rakshith U R",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PW28": {
+        "name": "Rashmi N S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "20PC01": {
+        "name": "Akshay N",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PW34": {
+        "name": "Sowndharya S M",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PT09": {
+        "name": "Kavushik",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PC29": {
+        "name": "Sandra Sankar",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PW30": {
+        "name": "Semmozhi S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PW19": {
+        "name": "Avanthika R",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PW27": {
+        "name": "Sangamithra S",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PW39": {
+        "name": "Thirusha M",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
+            1020315478951989299
+        ]
+    },
+    "21PT21": {
+        "name": "S Hitesh",
+        "event": "Triple-Trouble",
+        "position": "Volunteer",
+        "role_names": [
+            "Volunteer",
+            "Triple-Trouble"
+        ],
+        "roles": [
+            1027982071530012692,
             1020315478951989299
         ]
     },
     "22MX222": {
         "name": "Santhosh Kumar A",
         "event": "Nethunt",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Nethunt"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020315223858618369
         ]
     },
     "22MX122": {
         "name": "Sathiyalingesh",
-        "event": "Code Sprint",
-        "position": "Deputy Coordinator",
+        "event": "Codesprint",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Codesprint"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020314454149308487
         ]
     },
     "22MX214": {
         "name": "Pavithran R ",
         "event": "Invenirer",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Invenirer"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020315139532128327
         ]
     },
     "22MX209": {
         "name": "Naresh Parkav A",
         "event": "Cybernerd",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Cybernerd"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020314808073072690
         ]
     },
     "22MX202": {
         "name": "Arunkumar R",
         "event": "Thinklytics",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Thinklytics"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020315435704537118
         ]
     },
     "22MX114": {
         "name": "Manoharan  R",
         "event": "Artistry",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Artistry"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020314444728913980
         ]
     },
     "22MX118": {
         "name": "Pavithra A",
         "event": "Colloquy",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Colloquy"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020314786279456778
         ]
     },
     "22MX130": {
         "name": "Varuna R",
         "event": "Flip-Flop",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Flip-Flop"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020314962566074440
         ]
     },
     "22MX120": {
         "name": "Rajkumar B",
         "event": "Techiadz",
-        "position": "Deputy Coordinator",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Techiadz"
+        ],
         "roles": [
-            1020316038178553937,
-            1020315478951989299
+            1027982054824095815,
+            1020315350342062103
+        ]
+    },
+    "": {
+        "name": "Arivuselvan S",
+        "event": "Staroflogin2K22",
+        "position": "Deputy-Coordinator",
+        "role_names": [
+            "Deputy-Coordinator",
+            "Staroflogin2K22"
+        ],
+        "roles": [
+            1027982054824095815,
+            1020315308910723082
         ]
     },
     "18PD28": {
@@ -557,5 +3051,4 @@
             1020308662671126538
         ]
     }
-          
 }

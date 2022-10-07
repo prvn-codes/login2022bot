@@ -31,5 +31,16 @@ def get_user_name(registered_email, conn) -> str:
             return event[0]
     return "UserNameNotFound"
 
+
+def get_alumni(registered_email, conn) -> str:
+    curr = conn.cursor()
+    curr.execute(f'SELECT name FROM {os.environ["ALUMNI_TABLE"]} where email=\'{registered_email}\';')
+    result = curr.fetchall()
+    curr.close()
+    if result:
+        for event in result:
+            return event[0]
+    return "UserNameNotFound"
+
 def close(conn):
     conn.close()
