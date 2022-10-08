@@ -41,7 +41,7 @@ async def addRoleMember(bot, message: discord.message.Message, log):
     await user.edit(roles=[])
     await user.add_roles(*roles)
     role_names = ", ".join(role.name for role in roles) 
-    await user.send(f"You have been assigned for the following roles: {role_names}")
+    await user.send(f"You have been assigned for the following event : {role_names}\nPlease contact <@586862321922605076> for any queries")
     log.write(f"+ [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n")
 
   else:
@@ -53,6 +53,6 @@ async def addRoleMember(bot, message: discord.message.Message, log):
       
     await user.add_roles(*roles)
     role_names = ", ".join(role.name for role in roles) 
-    await user.send(f"You have been assigned for the following roles: {role_names}")
+    await user.send(f"You have been assigned for the following events: {role_names} \nPlease contact <@586862321922605076> for any queries")
 
     log.write(f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} Not available in database\n")
