@@ -45,9 +45,6 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
         nickname = db.get_user_name(message.content, conn).title()
         await user.edit(nick=nickname)
         log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t User Nickname changed from '{user.display_name}' to {nickname}\n")
-
-        await user.edit(roles=[])
-        await user.add_roles(*roles)
         log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n")
       
       else :
