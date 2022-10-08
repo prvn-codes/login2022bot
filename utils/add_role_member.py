@@ -48,8 +48,10 @@ async def addRoleMember(bot, message: discord.message.Message, log):
     await user.edit(roles=[])
     if guild.id == int(os.environ["LOGIN_GUILD"]):
       roles = [discord.utils.get(guild.roles, name="Volunteer" )]
+      roles.append([discord.utils.get(guild.roles, name="Other Departments" )])
     elif guild.id == int(os.environ["LAST_STAND_GUILD"]):
       roles = [discord.utils.get(guild.roles, name="Other Volunteers" )]
+      roles.append([discord.utils.get(guild.roles, name="Other Departments" )])
       
     await user.add_roles(*roles)
     role_names = ", ".join(role.name for role in roles) 
