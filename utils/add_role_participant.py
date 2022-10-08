@@ -63,9 +63,9 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
       await user.add_roles(*roles)
       role_names = "\n".join(role.name for role in roles) 
       role_names = role_names.replace("Participants","")
-      msg = f"Thank you for registering!\nHere is the list of Events you have registered : \n{role_names}"
+      msg = f"Thank you for registering!\nHere is the list of Events you have registered : \n{role_names}\nIf your registered events are missing or misassigned please feel free to contact server admin or mod"
       if message.guild.id == int(os.environ['LAST_STAND_GUILD']):
-        msg = f"Thank you for registering!\nHere is the list of Events you have registered from Last Stand : \n{role_names}"
+        msg = f"Thank you for registering!\nHere is the list of Events you have registered from Last Stand : \n{role_names}\nIf your registered events are missing or misassigned please feel free to contact server admin or mod"
       await user.send(msg)
       log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n")
     
