@@ -16,7 +16,7 @@ async def addRoleAlumni(bot, message: discord.message.Message, conn: db):
         await user.edit(roles=[])
         roles = [discord.utils.get(guild.roles, name="Alumni")]
         await user.add_roles(*roles)
-        await user.send("As an esteemed alumni of our departments, we welcome you, whose constant source of encouragement and support has been the backbone of our growth over the years. It must be noted that our departments have always emphasized on the bond between the senior and junior batches on campus, and that this extends into all kinds of support, mentoring and avenues for learning even after graduation.")
+        await user.send(f"As an esteemed alumni of our departments, we welcome you {userRegistered.title()}, whose constant source of encouragement and support has been the backbone of our growth over the years. It must be noted that our departments have always emphasized on the bond between the senior and junior batches on campus, and that this extends into all kinds of support, mentoring and avenues for learning even after graduation.")
 
 
     
