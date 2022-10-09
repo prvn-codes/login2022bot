@@ -17,7 +17,7 @@ class Dump(commands.Cog):
         log.close()
     
     @commands.command(name='dumplogst')
-    async def dumplogs(self, message: discord.message.Message, arg):
+    async def dumplogst(self, message: discord.message.Message, arg):
         log = open("./data/logs.txt", "a")
 
         log_file = open("./data/logs.txt")
