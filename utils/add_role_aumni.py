@@ -6,7 +6,7 @@ import database.db as db
 async def addRoleAlumni(bot, message: discord.message.Message, conn: db):
     guild = bot.get_guild(message.guild.id)
     user = guild.get_member(message.author.id)
-    userRegistered = db.get_alumni(message.content, conn)
+    userRegistered = db.get_alumni(message.content.lower(), conn)
     
     if userRegistered != "UserNameNotFound":
         if guild.id == int(os.environ['LAST_STAND_GUILD']):
