@@ -122,11 +122,18 @@ async def add_result(interaction: discord.Interaction, event_name: app_commands.
   f = open("test.html","w")
   f.write(response.text)
   f.close()
-  
+
+  channel = bot.get_channel(int(os.environ['RESULT_CHANNEL']))
+
   if response.status_code == 200:
-    await user.send(embed=em)
+    await channel.send(embed=em)
   else:
-    await user.send("Your request has **NOT** been submitted please contact <@586862321922605076>")
+    await channel.send(f"<@{user.id}> Your request has **NOT** been submitted please contact <@586862321922605076>")
+  
+  # if response.status_code == 200:
+  #   await user.send(embed=em)
+  # else:
+  #   await user.send("Your request has **NOT** been submitted please contact <@586862321922605076>")
   time.sleep(3)
   await interaction.delete_original_response()
   
