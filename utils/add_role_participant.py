@@ -76,6 +76,8 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
       log.write(f"[{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t{message.content} added roles {roles}\n")
     
     else:
+      await user.edit(roles=[])
+      await user.add_roles(*roles)
       log.write(f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t`{message.content}` has not registered any events\n")
       await user.send("Thank you for registering! However, we notice that you have not registered for any specific event. Please register for any event of your choice! You will have to submit your registered email ID again for this purpose. If you have any queries with regard to this, feel free to reach out to the <#1020388821742927932> channel or <#1025079557117710436> by tagging registration team or the server admin.\n\n Website : https://www.psglogin.in")
   
