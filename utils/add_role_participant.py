@@ -26,6 +26,11 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
 
   if userRegistered != "UserNameNotFound":
 
+    if message.guild.id == int(os.environ["LAST_STAND_GUILD"]):
+      roles = [discord.utils.get(guild.roles, id=eventRoleMapping["ls-participant"])]
+    else :
+      roles = [discord.utils.get(guild.roles, id=eventRoleMapping["participant"])]
+
     if events:
       
       if message.guild.id == int(os.environ["LAST_STAND_GUILD"]):
