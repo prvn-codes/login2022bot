@@ -13,8 +13,8 @@ from discord import Status, app_commands
 import time
 import requests
 
-import set_environs
-set_environs.setup_environs()
+# import set_environs
+# set_environs.setup_environs()
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
@@ -38,32 +38,32 @@ async def on_ready():
   
 
 
-# @bot.event
-# async def on_message(message: discord.message.Message):
+@bot.event
+async def on_message(message: discord.message.Message):
 
-#   log = open("./data/logs.txt", "a")
+  log = open("./data/logs.txt", "a")
 
-#   if message.author == bot.user:
-#     return
+  if message.author == bot.user:
+    return
 
-#   if message.channel.id == int(os.environ["LOGIN_CHANNEL_ID"]) or message.channel.id == int(os.environ["LAST_STAND_CHANNEL_ID"]):
-#     await message.delete()
-#     log.write(f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{bot.get_user(message.author.id).name}] \tMessage Deleted `{message.content}`\n")
+  if message.channel.id == int(os.environ["LOGIN_CHANNEL_ID"]) or message.channel.id == int(os.environ["LAST_STAND_CHANNEL_ID"]):
+    await message.delete()
+    log.write(f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{bot.get_user(message.author.id).name}] \tMessage Deleted `{message.content}`\n")
     
-#     if re.match(r".*@\w+\.+\w+", message.content):
-#       res = await addRoleParticipant(bot=bot, message=message, log=log, conn=conn)
-#       if res:
-#         await addRoleAlumni(bot=bot, message=message, conn=conn)
+    if re.match(r".*@\w+\.+\w+", message.content):
+      res = await addRoleParticipant(bot=bot, message=message, log=log, conn=conn)
+      if res:
+        await addRoleAlumni(bot=bot, message=message, conn=conn)
     
-#     elif re.match(r"\d{2}\w{2}\d+", message.content.upper()):
-#       await addRoleMember(bot=bot, message=message, log=log)
+    elif re.match(r"\d{2}\w{2}\d+", message.content.upper()):
+      await addRoleMember(bot=bot, message=message, log=log)
     
     
-#     else:
-#       pass
+    else:
+      pass
 
-#   log.close()
-#   await bot.process_commands(message)
+  log.close()
+  await bot.process_commands(message)
 
 
 
