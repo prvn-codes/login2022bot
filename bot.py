@@ -10,8 +10,7 @@ from utils.add_role_aumni import addRoleAlumni
 from discord.ext import commands
 import asyncio
 from discord import Status, app_commands
-import time
-import requests
+
 
 # import set_environs
 # set_environs.setup_environs()

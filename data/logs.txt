@@ -92,3 +92,71 @@
 --- [2022-10-12 23:17:00.538203+05:30]: [bot] Bot logged in
 --- [2022-10-12 23:18:14.731937+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>]
 --- [2022-10-12 23:18:14.731937+05:30]: [bot] Bot logged in
+--- [2022-10-13 09:37:41.709277+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 09:37:41.709277+05:30]: [bot] Bot logged in
+--- [2022-10-13 09:39:22.185000+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 09:39:22.185000+05:30]: [bot] Bot logged in
+--- [2022-10-13 09:41:00.765105+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 09:41:00.765105+05:30]: [bot] Bot logged in
+--- [2022-10-13 09:42:06.917151+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 09:42:06.917151+05:30]: [bot] Bot logged in
+--- [2022-10-13 09:43:07.218984+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 09:43:07.218984+05:30]: [bot] Bot logged in
+--- [2022-10-13 10:09:16.063805+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 10:09:16.063805+05:30]: [bot] Bot logged in
+--- [2022-10-13 10:14:34.883488+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 10:14:34.883488+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:11:44.787577+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:11:44.787577+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:15:10.970490+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:15:10.971461+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:32:48.150725+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:32:48.151723+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:39:00.379639+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:39:00.379639+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:51:51.557250+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:51:51.557250+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:53:40.814023+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:53:40.814023+05:30]: [bot] Bot logged in
+--- [2022-10-13 11:58:00.757190+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 11:58:00.757190+05:30]: [bot] Bot logged in
+--- [2022-10-13 12:02:58.821730+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 12:02:58.821730+05:30]: [bot] Bot logged in
+--- [2022-10-13 12:03:58.942607+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 12:03:58.942607+05:30]: [bot] Bot logged in
+--- [2022-10-13 13:37:45.058223+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 13:37:45.058223+05:30]: [bot] Bot logged in
+--- [2022-10-13 14:41:34.727912+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 14:41:34.727912+05:30]: [bot] Bot logged in
+--- [2022-10-13 14:44:51.620674+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 14:44:51.620674+05:30]: [bot] Bot logged in
+--- [2022-10-13 14:54:10.938124+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 14:54:10.938124+05:30]: [bot] Bot logged in
+--- [2022-10-13 14:57:42.565793+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 14:57:42.565793+05:30]: [bot] Bot logged in
+--- [2022-10-13 14:59:16.673175+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 14:59:16.674178+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:08:45.415033+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:08:45.416049+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:14:40.694024+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:14:40.694589+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:22:45.654379+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:22:45.654379+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:26:20.892804+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:26:20.892804+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:28:03.269528+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:28:03.269528+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:29:42.965860+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:29:42.966107+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:33:07.244062+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:33:07.244062+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:50:21.575726+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:50:21.575726+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:52:07.621515+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:52:07.621515+05:30]: [bot] Bot logged in
+--- [2022-10-13 15:58:54.621425+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 15:58:54.621425+05:30]: [bot] Bot logged in
+--- [2022-10-13 16:02:11.741683+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 16:02:11.741683+05:30]: [bot] Bot logged in
+--- [2022-10-13 16:03:18.975431+05:30]: [bot] Bot synced [<AppCommand id=1029708497497096262 name='submit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863987 name='edit_result' type=<AppCommandType.chat_input: 1>>, <AppCommand id=1029968638045863988 name='delete_result' type=<AppCommandType.chat_input: 1>>]
+--- [2022-10-13 16:03:18.975431+05:30]: [bot] Bot logged in
