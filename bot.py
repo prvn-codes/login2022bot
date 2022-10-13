@@ -15,7 +15,7 @@ from discord import Status, app_commands
 # import set_environs
 # set_environs.setup_environs()
 
-bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='$', intents=discord.Intents.all())
 
 conn = db.get_connection()
 

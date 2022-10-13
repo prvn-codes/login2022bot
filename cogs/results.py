@@ -74,7 +74,7 @@ class Results(commands.Cog):
 
 # ------------------------------------------------------------------------------------------ add -----------------------------------------------------------------------------------
 
-    @app_commands.command(name="submit_result", description="res")
+    @app_commands.command(name="submit_result", description="To submit results of your event!")
     @app_commands.checks.has_any_role(1020308729796763669,1020316038178553937)
     @app_commands.choices(
     position = [
