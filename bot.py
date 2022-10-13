@@ -9,7 +9,6 @@ from utils.add_role_participant import addRoleParticipant
 from utils.add_role_aumni import addRoleAlumni
 from discord.ext import commands
 import asyncio
-from discord import Status, app_commands
 
 
 # import set_environs

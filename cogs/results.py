@@ -123,10 +123,6 @@ class Results(commands.Cog):
         files=[]
         headers = {}
         response = requests.request("POST", os.environ["RESULT_URL"], headers=headers, data=payload, files=files)
-        f = open("test.html","w")
-        f.write(response.text)
-        f.close()
-
         res = json.loads(response.text)
 
         em.timestamp = datetime.now(pytz.timezone('Asia/Calcutta'))
