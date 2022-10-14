@@ -128,8 +128,9 @@ class Results(commands.Cog):
         em.timestamp = datetime.now(pytz.timezone('Asia/Calcutta'))
         em.set_footer(text=f"Result ID : {res['id']} | Message : {res['message']} | updated on ")
         await user.send(embed=em)
-        # channel = self.bot.get_channel(int(os.environ['RESULT_CHANNEL']))
-        # await channel.send(embed=em)
+
+        channel = self.bot.get_channel(int(os.environ['RESULT_CHANNEL']))
+        await channel.send(embed=em)
         
         time.sleep(3)
         await interaction.delete_original_response()
@@ -206,6 +207,9 @@ class Results(commands.Cog):
         
         await user.send(embed=em)
 
+        channel = self.bot.get_channel(int(os.environ['RESULT_CHANNEL']))
+        await channel.send(embed=em)
+
         time.sleep(6)
         await interaction.delete_original_response()
 
@@ -266,6 +270,9 @@ class Results(commands.Cog):
         em.set_footer(text=f"Result ID : {result_id} | Message : {res['message']} | updated on ")
         
         await user.send(embed=em)
+        channel = self.bot.get_channel(int(os.environ['RESULT_CHANNEL']))
+        await channel.send(embed=em)
+        
         time.sleep(6)
         await interaction.delete_original_response()
 
