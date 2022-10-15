@@ -85,7 +85,7 @@ async def addRoleParticipant(bot, message: discord.message.Message, log, conn):
     userRegistered = db.get_alumni(message.content, conn)
     if userRegistered == "UserNameNotFound":
       log.write(f"- [{datetime.now(pytz.timezone('Asia/Calcutta'))}] : [{message.guild.name}] [{user.name}] \t`{message.content}` is Not A Registered Participant\n")
-      await user.send(f"Your email: {message.content} **Email Verification requires case sensitive!!!** \n\n Oh ooh! We notice that you have not registered Login'22. Please register for any event of your choice! You will have to submit your email ID again for this purpose. If you have any queries with regard to this, feel free to reach out to the <#1020388821742927932> channel or <#1025079557117710436> or the server admin.\n\n Website : https://www.psglogin.in")
+      await user.send(f"Your email: **{message.content}** \n\n**Email Verification requires case sensitive!!!** \n\n Oh ooh! We notice that you have not registered Login'22. Please register for any event of your choice! You will have to submit your email ID again for this purpose. If you have any queries with regard to this, feel free to reach out to the <#1020388821742927932> channel or <#1025079557117710436> or the server admin.\n\n Website : https://www.psglogin.in")
       return 0
     else:
       return 1
